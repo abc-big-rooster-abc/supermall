@@ -17,7 +17,7 @@
             },
             activeStyle: {
                 type: String,
-                default: 'coral'
+                default: 'red'
             }
         },
         data () {
@@ -58,7 +58,7 @@
   }
 
   .actived {
-    color:coral;
+    color:red;
     font-weight: bolder;
   }
 
