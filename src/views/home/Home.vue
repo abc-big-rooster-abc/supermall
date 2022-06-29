@@ -3,7 +3,35 @@
     <nav-bar class="home-nav-bar">
       <div slot="center">购物街</div>
     </nav-bar>
-    <home-swiper :cbanners="banners"></home-swiper>
+    <home-swiper class="home_1" :cbanners="banners"></home-swiper>
+    <home-recommend :cproducts="products"></home-recommend>
+    <home-feature-view/>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+        <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
   </div>
 </template>
 
@@ -11,12 +39,17 @@
     import NavBar from "components/common/navbar/NavBar";
     import HomeSwiper from "./childComps/HomeSwiper";
     import {getHomeMultiData} from "network/home";
+    import HomeRecommend from "./childComps/HomeRecommend";
+    import HomeFeatureView from "./childComps/HomeFeatureView";
 
     export default {
         name: "home",
         components:{
           NavBar,
-          HomeSwiper
+          HomeSwiper,
+          HomeRecommend,
+          HomeFeatureView
+
 
         },
         data(){
@@ -47,6 +80,16 @@
   #home{
     background-color: var(--color-tint);
     color:white;
-
+    padding-top: 44px;
+  
   }
+  .home-nav-bar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    
+  }
+
 </style>
