@@ -1,8 +1,9 @@
 <template>
   <div class="home-feature">
-    <a href="http://adi-v3.dev">
+    <!-- <a href="http://adi-v3.dev">
       <img src="~assets/images/home/recommend_bg.jpg" alt="">
-    </a>
+    </a> -->
+    <img src="~assets/images/home/recommend_bg.jpg" alt="">
   </div>
 </template>
 
@@ -15,5 +16,8 @@
 <style scoped>
   .home-feature img{
     width: 100%;
+  }
+  .home-feature a {
+    display: inline-block
   }
 </style>

@@ -28,6 +28,7 @@
               // console.log("type:", typeof this.cproducts )
               // console.log("type:", typeof this.cproducts.slice(0,4) )
               console.log("sasd",this.cproducts )
+              console.log("cproducts:",this.cproducts)
                 return this.cproducts
             }
         }
